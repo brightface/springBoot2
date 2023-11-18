@@ -14,7 +14,7 @@ public class UserService {
 
     @Autowired
     private UserRepository userRepository;
-
+    //받아서 세이브를한다.
     public UserEntity save(UserEntity user){
         // save
         return userRepository.save(user);
