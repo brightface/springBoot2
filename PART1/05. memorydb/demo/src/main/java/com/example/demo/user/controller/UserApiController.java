@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/api/user")
 @RequiredArgsConstructor
 public class UserApiController {
-
+    //유저서비스를 불러온다.
     private final UserService userService;
 
     @PutMapping("")
